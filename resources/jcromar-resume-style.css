@@ -1,5 +1,39 @@
-h1 {
-    color: red;
-    size: 4rem;
-    font-family: cursive;
+/* Universal Styles */
+@page {
+    size: letter, portrait;
 }
+body {
+    font-family: "lato", sans-serif;
+    color: black;
+    font-size: 1rem;
+}
+
+.info {
+    max-height: 5rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.info .name h1 {
+    font-size: 4rem;
+    font-family: "Marcellus", serif;
+}
+
+.info .contact {
+    justify-self: right;
+}
+
+.content {
+    display: flex;
+
+}
+
+.content .experience {
+
+}
+
+.content .skills {
+
+}
+
