@@ -8,34 +8,138 @@ body {
     font-size: 1rem;
     width: 8.5in;
     height: 11in;
+    border: 1px solid gray;
 }
 
+h1 {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+h2 {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+h3 {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+h4 {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+p {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+
+/* Header style; name and contact info */
 .info {
     max-height: 5rem;
     display: flex;
     align-items: center;
-    margin-bottom: 2rem;
+    justify-content: space-between;
+    padding: 3rem 1rem 2rem 2rem;
+    border-bottom: 2px solid gray;
 }
 
 .info .name h1 {
     font-size: 4rem;
     font-family: "Marcellus", serif;
+    color: #0D576E;
 }
 
 .info .contact {
-    justify-self: right;
 }
 
+
+
+/* content style; experience, edu and skills */
 .content {
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 
+.content h4 { /*the section headers*/
+    height: 1.25rem;
+    color: #0D576E;
+    margin-top: .5rem;  
+    margin-left: 0px;
+    font-size: 1.25rem; 
 }
 
 .content .experience {
+    border-right: 2px solid gray;
+    padding: 0rem 1rem 0rem 3rem;
+    max-width: 80%;
+    
 
+}
+.content .experience .listing {
+    padding-top: .7rem;
+}
+
+.content .experience .listing .company-data {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.content .experience .company {
+    font-size: 1.25rem;
+    line-height: 1rem;
+}
+
+.content .experience .location {
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.content .experience .all-roles {
+    border-left: .5px solid #0D576E;
+    margin-left: .5rem;
+}
+
+.content .experience .role-data {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.content .experience .role {
+    font-size: 1.12rem;
+    line-height: 1rem;
+    padding-left: .5rem;
+}
+
+.content .experience .dates {
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.content .experience .responsibilities {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+
+}
+
+.content .sidebar {
+    min-width: 20%;
+    padding-left: 1rem;
+    list-style: none;
 }
 
 .content .skills {
-
+    list-style: none;
 }
+
+.content .education {
+    list-style: none;
+}
+
 
