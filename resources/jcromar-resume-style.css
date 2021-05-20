@@ -8,7 +8,6 @@ body {
     font-size: 1.2rem;
     width: 8.5in;
     height: 11in;
-    border: 1px solid gray;
 }
 
 h1 {
@@ -30,6 +29,7 @@ h3 {
 h4 {
     margin: 0px 0px;
     padding: 0px 0px;
+    font-size: 1.5rem;
 }
 
 p {
@@ -37,6 +37,9 @@ p {
     padding: 0px 0px;
 }
 
+a {
+    color: black;
+}
 
 /* Header style; name and contact info */
 .info {
@@ -44,8 +47,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 3rem 1rem 2rem 2rem;
-    border-bottom: 2px solid gray;
+    padding: 1.5rem 1rem 2rem 5rem;
 }
 
 .info .name h1 {
@@ -54,7 +56,8 @@ p {
     color: #0D576E;
 }
 
-.info .contact {
+.info .contact h4 {
+    font-size: 1.2rem;
 }
 
 
@@ -68,18 +71,19 @@ p {
 
 .content h4 { /*the section headers*/
     height: 1.5rem;
-    color: #0D576E;
+    color: #ddd9d9;
     margin-top: .5rem;  
     margin-left: 0px;
-    font-size: 1.25rem; 
+    font-size: 1.5rem; 
 }
 
 .content .experience {
-    border-right: 2px solid gray;
     padding: 0rem 1rem 0rem 3rem;
     max-width: 80%;
-    
+}
 
+.content .experience h4 {
+    color:#0D576E;
 }
 .content .experience .listing {
     padding-top: .7rem;
@@ -97,12 +101,11 @@ p {
 }
 
 .content .experience .location {
-    font-size: 1rem;
+    font-size: 1.12rem;
     line-height: 1rem;
 }
 
 .content .experience .all-roles {
-    border-left: .5px solid #0D576E;
     margin-left: .5rem;
 }
 
@@ -119,7 +122,7 @@ p {
 }
 
 .content .experience .dates {
-    font-size: 1rem;
+    font-size: 1.12rem;
     line-height: 1rem;
 }
 
@@ -131,10 +134,11 @@ p {
 
 .content .sidebar {
     min-width: 30%;
+    min-height: 100%;
     padding-left: 1rem;
     padding-right: 1rem;
-    margin-top: .5rem;
     list-style: none;
+    background-color: #0d576eb7;
 }
 
 .content .skills {
@@ -151,7 +155,7 @@ p {
 }
 
 .content .education .certifications {
-    padding-bottom: .7rem;
+    padding-bottom: 1rem;
 
 }
 
