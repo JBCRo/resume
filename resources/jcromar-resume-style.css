@@ -56,8 +56,12 @@ a {
     color: #0D576E;
 }
 
+.info .contact {
+    padding-top: 1.5rem;
+}
 .info .contact h4 {
     font-size: 1.2rem;
+    font-weight: normal;
 }
 
 
@@ -134,20 +138,22 @@ a {
 
 .content .sidebar {
     min-width: 30%;
+    max-width: 30%;
     min-height: 100%;
     padding-left: 1rem;
     padding-right: 1rem;
     list-style: none;
     background-color: #0d576eb7;
+    border-radius: 1rem;
 }
 
 .content .skills {
     list-style: none;
-    padding-bottom: 1rem;
 }
 
 .content .education h4 {
     padding-bottom: .7rem;
+    padding-top: .7rem;
 }
 
 .content .education h3 {
@@ -184,6 +190,14 @@ a {
 .education #degree .BA {
     margin-left: 2rem;
     
+}
+
+.content .sidebar .summary h4 {
+    padding-bottom: .7rem;
+    padding-top: .7rem;
+}
+.content .sidebar .summary p {
+    max-width: 100%;
 }
 
 
