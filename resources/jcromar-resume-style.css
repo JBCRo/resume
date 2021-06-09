@@ -53,7 +53,7 @@ a {
 .info .name h1 {
     font-size: 4rem;
     font-family: "Marcellus", serif;
-    color: #0D576E;
+    color: #307489;
 }
 
 .info .contact {
@@ -75,7 +75,6 @@ a {
 
 .content h4 { /*the section headers*/
     height: 1.5rem;
-    color: #ddd9d9;
     margin-top: .5rem;  
     margin-left: 0px;
     font-size: 1.5rem; 
@@ -87,8 +86,8 @@ a {
 }
 
 .content .experience h4 {
-    color:#0D576E;
 }
+
 .content .experience .listing {
     padding-top: .7rem;
 }
@@ -142,18 +141,37 @@ a {
     min-height: 100%;
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-top: 1rem;
     list-style: none;
-    background-color: #0d576eb7;
+    background-color: #307489;
     border-radius: 1rem;
+    color: #F7F0F0;
+}
+
+.content .sidebar a {
+    color: eef4ed;
+}
+
+.content .contact {
+    padding-top: 1rem;
+}
+
+.content .contact .contact-info{
+    list-style: none;
+    padding-left: .9rem;
 }
 
 .content .skills {
     list-style: none;
 }
 
+.content .skills h4 {
+    padding-top: 1rem;
+}
+
 .content .education h4 {
-    padding-bottom: .7rem;
-    padding-top: .7rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .content .education h3 {
@@ -161,7 +179,7 @@ a {
 }
 
 .content .education .certifications {
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
 
 }
 
