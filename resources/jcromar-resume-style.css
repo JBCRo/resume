@@ -37,9 +37,6 @@ p {
     padding: 0px 0px;
 }
 
-a {
-    color: black;
-}
 
 /* Header style; name and contact info */
 .info {
@@ -138,10 +135,8 @@ a {
 .content .sidebar {
     min-width: 30%;
     max-width: 30%;
-    min-height: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
+    max-height: 100%;
+    padding: 1rem 1rem;
     list-style: none;
     background-color: #307489;
     border-radius: 1rem;
@@ -149,11 +144,13 @@ a {
 }
 
 .content .sidebar a {
-    color: eef4ed;
+    color: #F7F0F0;
 }
 
 .content .contact {
     padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    border-bottom: thin solid #F7F0F0;
 }
 
 .content .contact .contact-info{
@@ -162,11 +159,18 @@ a {
 }
 
 .content .skills {
-    list-style: none;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    border-bottom: thin solid #F7F0F0;
 }
 
 .content .skills h4 {
-    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.content .skills-list p {
+    margin-left: 2rem;
+
 }
 
 .content .education h4 {
